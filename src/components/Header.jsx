@@ -9,6 +9,11 @@ import Dragon2 from '../assets/images/web.p/utility-img2.webp';
 
 const Header = () => {
     const [show, setshow] = useState(true)
+    if (show === false) {
+        document.body.classList.add("max-lg:overflow-hidden");
+    } else {
+        document.body.classList.remove("max-lg:overflow-hidden");
+    }
     return (
         <div className='bg-BgHeader bg-cover lg:bg-bgsize bg-repeat bg-left-bottom lg:bg-center sm:h-[730px] md:h-[860px] lg:h-[930px] h-[600px] xl:min-h-screen relative'>
             <img src={Headerdradon} alt="Headerdradon" className='absolute walking_animation right-[7%] bottom-[10%] max-w-[80px] sm:max-w-[140px] lg:max-w-[211px] w-full z-[1]' />
