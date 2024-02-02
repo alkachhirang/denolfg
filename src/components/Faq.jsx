@@ -81,7 +81,7 @@ const Faq = () => {
 
             <div className='container xl:max-w-[1136px] mx-auto lg:px-3 px-6 md:mt-[50px] xl:mt-[200px]'>
                 <div className='flex flex-col justify-center items-center translate-y-[50px] sm:translate-y-[87px] relative z-[2]'>
-                    <h1 className='ff_luckydino m-0 text-[60px] tracking-[1px] sm:text-[80.37px] font-normal leading-[95%] drop-shadow-[0px_1.1337px_0px_#000] cursor-pointer'><span className='text-[#FBA11D]'>D</span><span className='text-[#23AAAC]'>i</span><span className='text-[#D45B07]'>n</span><span className='text-[#8EC627]'>o</span><span className='text-[#FCCA2B]'>L</span><span className='text-[#8F78D2]'>F</span><span className='text-[#FBA11D]'>G</span></h1>
+                    <h1 className='ff_luckydino m-0 text-[60px] tracking-[1px] sm:text-[80.37px] font-normal leading-[95%] drop-shadow-[0px_1.1337px_0px_#000] cursor-pointer'><span className='text-[#FBA11D]'>D</span><span className='text-[#23AAAC]'>i</span><span className='text-[#D45B07]'>n</span><span className='text-[#8EC627]'>o</span><span className='text-[#FCCA2B]'>L</span><span className='text-[#8F78D2]'>F</span><span className='text-[#8ec627]'>G</span></h1>
                     <p className='ff_Balsamiq text-[14px] text-[#fff] text-center leading-[123%] max-w-[374px] mb-0 mt-[10px] lg:mt-[33px]'>Sed tempus pretium est, vestibulum dapibus mauris viverra id. Curabitur feugiat porta lorem,  </p>
                     <div className='flex gap-[8px] mt-[20px] md:mt-[33px]'>
                         <Twitter />
