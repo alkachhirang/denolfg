@@ -1,38 +1,184 @@
-.App {
-  text-align: center;
+* {
+    scroll-behavior: smooth !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.accordion {
+    width: 100%;
+    max-width: 801px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.accordion-item {
+    border: 1px solid #fff;
+    border-radius: 40.5px !important;
+    background-color: #09655A !important;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.13) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.accordion-title {
+    padding: 23px 22px 22px 28px;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transform: scale(0.8);
+    padding: 0;
+    transition: all 0.8s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accordion-content.open {
+    max-height: 300px;
+    transform: scale(1);
+    margin-top: -2px;
+    padding: 23px 22px 22px 28px;
+    padding-top: 0 !important;
+}
+
+.img_animation {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.back_to_top {
+    -webkit-animation: mover 3000ms infinite ease-in-out !important;
+    animation: mover 3000ms infinite ease-in-out !important;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0px);
+    }
+
+    70% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float: left;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+.typewriter h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 2s steps(40, end),
+        blink-caret 2s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1.02, 1.02);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(1.02, 1.02);
+    }
+}
+
+@media (max-width:640px) {
+    .accordion-title {
+        padding: 16px 16px 16px 18px !important;
+    }
+
+    .accordion-content.open {
+        padding: 16px 16px 16px 18px;
+
+    }
+}
+
+@media (min-width:768px) {
+    @keyframes walk {
+        0% {
+            background-position: 0px
+        }
+
+        100% {
+            background-size: cover;
+        }
+    }
+
+    @keyframes walk2 {
+        0% {
+            background-position: 0px;
+             left:25%;
+        }
+
+        100% {
+            background-size: cover;
+            left: 80%;
+        }
+    }
+
+    @keyframes forward {
+        0% {
+            transform: translateX(-100px)
+        }
+
+        100% {
+            transform: translateX(-1600px)
+        }
+    }
+
+    .walking_animation {
+        animation: walk 10s steps(13) infinite, forward 13s linear infinite;
+    }
+
+    @keyframes backward {
+        0% {
+            transform: translateX(100px)
+        }
+
+        100% {
+            transform: translateX(800px)
+        }
+    }
+
+    .walk_animation {
+        animation: walk2 20000s steps(13) infinite, backward 13s linear infinite;
+    }
 }
