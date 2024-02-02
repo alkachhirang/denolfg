@@ -61,7 +61,7 @@ const Header = () => {
                         <img src={Helicopter} alt="Helicopter" className='w-full swing sm:max-w-[394.14px] max-w-[220px]' />
                     </div>
                     <div className='sm:w-7/12 w-full flex flex-col items-center justify-center'>
-                        <h2 className="text-[#FBA11D] leading-[90%] lg:max-w-[398px] drop-shadow-[0px_6px0px#000] text-center ff_luckydino font-normal lg:text-[175.636px] md:text-[130px] sm:text-[100px] text-[64px] uppercase" data-aos="fade-left">
+                        <h2 className="text-[#FBA11D] leading-[90%] drop-shadow-[0px_1.1337px_0px_#000] lg:max-w-[398px] drop-shadow-[0px_6px0px#000] text-center ff_luckydino font-normal lg:text-[175.636px] md:text-[130px] sm:text-[100px] text-[64px] uppercase" data-aos="fade-left">
                             <span className="sm:block">
                                 D<span className="text-[#23AAAC]">I</span>
                                 <span className="text-[#D45B07]">N</span>
