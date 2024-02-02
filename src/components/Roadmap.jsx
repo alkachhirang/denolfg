@@ -11,14 +11,14 @@ const Roadmap = () => {
             <h2 className='sm:text-[64px] text-[52px] font-normal text-white text-center ff_Chewy leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-[50px] sm:mb-[80px]' data-aos="zoom-in-up">Roadmap</h2>
             <div class="container mx-auto xl:max-w-[1118px] xl:px-3 px-6 relative">
                 <div className='md:pl-0 sm:pl-[130px] pl-[70px]'>
-                    <div className='flex sm:flex-row flex-col sm:items-center xl:gap-[45px] lg:gap-[25px] gap-[14px] relative z-10' data-aos="zoom-in-right">
-                        <h3 className='lg:text-[200px] sm:text-[120px] text-[70px] font-normal md:w-[auto] w-[135px] leading-[130%] ff_Chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]'>01 </h3>
+                    <div className='flex sm:flex-row flex-col sm:items-center xl:gap-[45px] lg:gap-[25px] gap-[14px] relative z-10' data-aos="zoom-in-right ">
+                        <h3 className='lg:text-[200px] sm:text-[120px] text-[70px] font-normal md:w-[auto] w-[135px] leading-[50%] sm:leading-[70%] md:leading-[130%] ff_Chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]'>01 </h3>
                         <ol className='flex flex-col gap-4 list-disc pl-[30px]'>
                             <li className='lg:text-[20px] text-[15px] font-normal text-white leading-[121%]'>Launch $DINO & Website & Social Media.</li>
                             <li className='lg:text-[20px] text-[15px] font-normal text-white leading-[121%]'>Building the community.</li>
                             <li className='lg:text-[20px] text-[15px] font-normal text-white leading-[121%]'>Marketing Phase 1.</li>
                         </ol>
-                        <img src={heloImg} alt="heloImg" className='md:hidden block absolute sm:top-[-17%] left-[-86px] sm:left-[-28%] top-[-12%] max-w-[90px] sm:max-w-[120px]' />
+                        <img src={heloImg} alt="heloImg" className='md:hidden block absolute sm:top-[-17%] left-[-86px] sm:left-[-28%] top-[-12%] max-w-[80px] sm:max-w-[120px]' />
                     </div>
                     <div className='flex sm:flex-row flex-col sm:items-center lg:justify-end md:justify-center lg:pl-0 md:pl-[100px] lg:gap-[30px] gap-[15px] lg:pr-[100px] md:pt-[245px] pt-[30px] relative z-10' data-aos="zoom-in-left">
                         <h3 className='lg:text-[200px] sm:text-[120px] text-[70px] leading-[145%] ff_Chewy font-normal text-[#8EC627] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]'>02</h3>
