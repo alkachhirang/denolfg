@@ -3,7 +3,6 @@ import { Twitter } from './IconImg';
 import { Discoard } from './IconImg';
 import { Instagram } from './IconImg';
 import Faqlayer from '../assets/images/web.p/faq-layer.webp';
-import { UpArrowsvg } from './IconImg';
 import { LowerArrowsvg } from './IconImg';
 
 const Faq = () => {

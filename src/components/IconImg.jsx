@@ -77,15 +77,6 @@ export const Instagram = () => {
         </div>
     );
 };
-export const UpArrowsvg = () => {
-    return (
-        <div className=" w-[36px] h-[36px] cursor-pointer bg-[#fff] rounded-[37px] flex items-center justify-center transition-all duration-300 ease-linear ">
-            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2.28571 8.53763e-07L8 5.625L13.7143 3.54204e-07L16 1.125L8 9L-3.44227e-07 1.125L2.28571 8.53763e-07Z" fill="#0A4740" />
-            </svg>
-        </div>
-    );
-};
 export const LowerArrowsvg = () => {
     return (
         <div className=" w-[36px] h-[36px] cursor-pointer bg-[#fff] rounded-[37px] flex items-center justify-center transition-all duration-300 ease-linear ">
@@ -93,40 +84,5 @@ export const LowerArrowsvg = () => {
                 <path d="M13.7143 8.99902L7.99997 3.37402L2.28568 8.99902L-2.95639e-05 7.87402L7.99997 -0.000976562L16 7.87402L13.7143 8.99902Z" fill="#0A4740" />
             </svg>
         </div>
-    );
-};
-export const Line1 = () => {
-    return (
-        <svg width="18" height="91" viewBox="0 0 18 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.11426 90.2215V1.43701H16.9524" stroke="#D1D1D1" strokeWidth="1.47835" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-    );
-};
-export const Line2 = () => {
-    return (
-        <svg width="16" height="105" viewBox="0 0 16 105" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.65637 103.662V14.8654L14.8589 1.66284" stroke="#D1D1D1" strokeWidth="1.47835" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-    );
-};
-export const Line3 = () => {
-    return (
-        <svg width="2" height="45" viewBox="0 0 2 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0.999998 44L1 1" stroke="#D1D1D1" strokeWidth="1.47835" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-    );
-};
-export const Line4 = () => {
-    return (
-        <svg width="16" height="105" viewBox="0 0 16 105" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14.4427 103.662V14.8654L1.24023 1.66284" stroke="#D1D1D1" strokeWidth="1.47835" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-    );
-};
-export const Line5 = () => {
-    return (
-        <svg width="18" height="91" viewBox="0 0 18 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.9849 90.2215V1.43701H1.14685" stroke="#D1D1D1" strokeWidth="1.47835" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
     );
 };
