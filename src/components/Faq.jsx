@@ -61,7 +61,7 @@ const Faq = () => {
                                 </div>
                                 <div
                                     className={`accordion-content ${openAccordion === index ? "open" : ""
-                                        } ff_Balsamiq text-[16px] text-[#fff] font-normal `}>
+                                        } ff_Balsamiq text-[15px] sm:text-[16px] text-[#fff] font-normal `}>
                                     {item.content}
                                 </div>
                             </div>
