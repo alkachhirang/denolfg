@@ -51,7 +51,7 @@ const Faq = () => {
                             <div className="accordion-item sm:mb-[26px] mb-[17px]" key={index}>
                                 <div className="flex justify-between items-center accordion-title"
                                     onClick={() => toggleAccordion(index)}>
-                                    <div className={`${openAccordion === index ? "rounded-tl-[40.5px] rounded-tr-[40.5px]" : "rounded-[40.5px] "} ff_Balsamiq text-[#fff] text-[16px] sm:text-[20px] font-bold leading-[116%]`}
+                                    <div className={`${openAccordion === index ? "rounded-tl-[40.5px] rounded-tr-[40.5px]" : "rounded-[40.5px] "} ff_Balsamiq text-[#fff] text-[15px] sm:text-[20px] font-bold leading-[116%]`}
                                     >
                                         {item.title}
                                     </div>
