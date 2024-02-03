@@ -56,15 +56,8 @@ const Faq = () => {
                                     >
                                         {item.title}
                                     </div>
-                                    <div className="transition-all duration-300 ease-linear ">{openAccordion === index ? (
-                                        <div className="transition-all duration-300 ease-linear ">
-                                            <LowerArrowsvg />
-                                        </div>
-                                    ) : (
-                                        <div className="transition-all duration-300 ease-linear ">
-                                            <UpArrowsvg />
-                                        </div>
-                                    )}
+                                    <div className={`${openAccordion === index ? " rotate-[180deg]" : ""} transition-all duration-300 ease-linear `}>
+                                        <LowerArrowsvg />
                                     </div>
                                 </div>
                                 <div
